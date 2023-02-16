@@ -33,9 +33,11 @@ class AlarmClock:
         print(f"Alarm time is now set to {new_time}.")
 
 my_alarm = AlarmClock(True)
+# my_alarm = AlarmClock("1:30", True, "6:30")
 # my_alarm.set_time("1:45")
 # my_alarm.turn_on_off()
 # my_alarm.set_alarm("6:45")
 # my_alarm.turn_on_off()
 print(my_alarm.current_time)
 print(my_alarm.alarm_time)
+

@@ -21,14 +21,14 @@ Setting the variable equal to the name of the class with a set of parenthesis di
 # my_alarm.set_alarm("6:45")
 # my_alarm.turn_on_off()
 
-# from person import Person
+from person import Person
 
-# person_one = Person("Sabine", 100)
-# person_two = Person("Koll", 100)
+person_one = Person("Sabine", 100)
+person_two = Person("Koll", 100)
 
-# person_two.send_transfer(100)
-# person_one.receive_transfer("Koll", 100)
+person_two.send_transfer(100)
+person_one.receive_transfer("Koll", 100)
 
-#Bonus Challenges
+
 
 
